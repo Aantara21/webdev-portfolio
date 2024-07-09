@@ -27,6 +27,9 @@
 .shared-bg{
     background-color: #FFF8F3 ;
 }
+.center{
+    align-items: center;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -105,4 +108,18 @@ nav ul li{
     justify-content: space-around;
     margin-top: 50px;
 }
+
+/* whatido */
+.skill-items{
+    display: flex;
+    gap: 24px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.items{
+    padding: 30px;  
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+}
+
 
